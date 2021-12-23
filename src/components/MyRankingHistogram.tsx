@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import * as echarts from 'echarts';
 
+const rank_data=require('./ranking_data.json')
+
 type EChartsOption = echarts.EChartsOption;
 
 interface MyRankingHistogramProps {
@@ -24,12 +26,12 @@ class MyRankingHistogram extends Component<MyRankingHistogramProps, MyRankingHis
       title: {
         text: '景点排名'
       },
-      // tooltip: {
-      //   trigger: 'axis',
-      //   axisPointer: {
-      //     type: 'shadow'
-      //   }
-      // },
+      tooltip: {
+        trigger: 'axis',
+        axisPointer: {
+          type: 'shadow'
+        }
+      },
       legend: {},
       grid: {
         left: '0%',
@@ -43,21 +45,20 @@ class MyRankingHistogram extends Component<MyRankingHistogramProps, MyRankingHis
       },
       yAxis: {
         type: 'category',
-        data: ['Brazil', 'Indonesia', 'USA', 'India', 'China', 'World',"jfdkslf",'fdjslkfjkds','fdjsklfj','fdjsklfj','fdjsklfj','fdjsklfj','fdjsklfj']
+        data:rank_data[0]
       },
       series: [
         {
-          // name: '2011',
-          // left:"-10px",
           type: 'bar',
-          data: [18203, 23489, 29034, 104970, 131744, 630230]
-
+          itemStyle: {
+            color: new echarts.graphic.LinearGradient(0, 0, 1, 0, [
+              { offset: 0, color: '#009ad6' },
+              // { offset: 0.5, color: '#188df0' },
+              { offset: 1, color: '#ed1941' }
+            ])
+          },
+          data:rank_data[1]
         },
-        // {
-        //   name: '2012',
-        //   type: 'bar',
-        //   data: [19325, 23438, 31000, 121594, 134141, 681807]
-        // }
       ]
     };
 
