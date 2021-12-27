@@ -23,6 +23,10 @@ class MyNightingaleChart extends Component<MyNightingaleChartProps, MyNightingal
     var myChart = echarts.init(chartDom);
     var option: EChartsOption;
     option = {
+      title: {
+        text: '中国各省市景点分布',
+        left:'center',
+      },
       legend: {
         show:true,
         // top:"left",

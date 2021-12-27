@@ -19,15 +19,21 @@ interface AppProps {
 }
 interface AppState {
   windowHeight:number,
-  windowWidth:number
+  windowWidth:number,
+  name:string
 }
 class App extends Component<AppProps, AppState>{
   public constructor(props: AppProps) {
     super(props)
     this.state = {
       windowHeight:0,
-      windowWidth:0
+      windowWidth:0,
+      name:"浙江"
     }
+  }
+  change_state = (name:string) => {
+    this.setState({name:name})
+    // console.log(name)
   }
 
   componentDidMount(){
@@ -36,7 +42,8 @@ class App extends Component<AppProps, AppState>{
     console.log(width,height)
     this.setState({
       windowHeight:height,
-      windowWidth:width
+      windowWidth:width,
+      // name:'浙江'
     })
   }
 
@@ -135,7 +142,7 @@ class App extends Component<AppProps, AppState>{
             // backgroundColor:"blue"
           }}
         >
-        <MyChinaMapShow></MyChinaMapShow>
+        <MyChinaMapShow change_state={this.change_state}></MyChinaMapShow>
 
         </div>
         <div
@@ -158,7 +165,7 @@ class App extends Component<AppProps, AppState>{
               // backgroundColor:"pink"
             }}
           >
-          <MyRankingHistogram></MyRankingHistogram>
+          <MyRankingHistogram name={this.state.name}></MyRankingHistogram>
           </div>
           <div
             className='right-buttom-display'
@@ -168,7 +175,7 @@ class App extends Component<AppProps, AppState>{
               // backgroundColor:"rgb(0, 122, 204)"
             }}
           >
-            <MyProvinceMap></MyProvinceMap>
+            <MyProvinceMap name={this.state.name}></MyProvinceMap>
           </div>
         </div>
       </div>

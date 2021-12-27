@@ -6,7 +6,7 @@ const rank_data=require('./ranking_data.json')
 type EChartsOption = echarts.EChartsOption;
 
 interface MyRankingHistogramProps {
-
+  name: string;
 }
 interface MyRankingHistogramState {
 
@@ -16,15 +16,24 @@ class MyRankingHistogram extends Component<MyRankingHistogramProps, MyRankingHis
     super(props)
   }
 
-  componentDidMount(){
-
+  draw = ()=>{
     var chartDom = document.getElementById('my-rankingHistogram-canvas')!;
     var myChart = echarts.init(chartDom);
     var option: EChartsOption;
+    const provinces = Object.keys(rank_data)
+    var province=this.props.name
+    var find_index = function (k: string){
+      var i = 0;
+      for (i=0;i<provinces.length;i++){
+        if(provinces[i]==k)break;
+      }
+      return i;
+    };
+    var index = find_index(province)
 
     option = {
       title: {
-        text: '景点排名'
+        text: provinces[index]+'景点排名(top20)'
       },
       tooltip: {
         trigger: 'axis',
@@ -45,7 +54,7 @@ class MyRankingHistogram extends Component<MyRankingHistogramProps, MyRankingHis
       },
       yAxis: {
         type: 'category',
-        data:rank_data[0]
+        data:rank_data[provinces[index]][0]
       },
       series: [
         {
@@ -57,13 +66,19 @@ class MyRankingHistogram extends Component<MyRankingHistogramProps, MyRankingHis
               { offset: 1, color: '#ed1941' }
             ])
           },
-          data:rank_data[1]
+          data:rank_data[provinces[index]][1]
         },
       ]
     };
 
     option && myChart.setOption(option);
+  }
 
+  componentDidMount(){
+    this.draw()
+  }
+  componentDidUpdate(){
+    this.draw()
   }
 
   public render(): JSX.Element {

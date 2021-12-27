@@ -9,7 +9,7 @@ import { WordCloudImage } from "../types/propsTypes"
 import { Spin } from 'antd';
 // import {image} from "../../image"   //词云图形状的编码
 // 导入json文件数据的方式  所有类词云图的数据接口
-const WordsCloudData = require("./10class_word_cloud_data.json")
+const WordsCloudData = require("./WordCloud_data.json")
 
 interface WordCloudDataType{
     [classId:string]:Array<{
@@ -36,7 +36,7 @@ export default class WordsCloud extends Component<Props, State> {
     constructor(props:any){
         super(props);
         this.state = {
-            classId: "0",   //用于调节绘制哪个类的词云图
+            classId: "词云",   //用于调节绘制哪个类的词云图
         }
     }
     
@@ -55,7 +55,7 @@ export default class WordsCloud extends Component<Props, State> {
         var option ={
             //设置标题，居中显示
             title:{
-                text: "第" + classId + "类的情况",
+                text: "全国各景点简介",
                 left:'center',
                 top:"0px",
                 fill: "red",

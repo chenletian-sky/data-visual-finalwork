@@ -1,0 +1,3204 @@
+{
+    "词云": [
+        {
+            "name": "文化",
+            "value": 151
+        },
+        {
+            "name": "位于",
+            "value": 94
+        },
+        {
+            "name": "体验",
+            "value": 94
+        },
+        {
+            "name": "世界",
+            "value": 90
+        },
+        {
+            "name": "温泉",
+            "value": 88
+        },
+        {
+            "name": "旅游",
+            "value": 85
+        },
+        {
+            "name": "中国",
+            "value": 81
+        },
+        {
+            "name": "休闲",
+            "value": 72
+        },
+        {
+            "name": "感受",
+            "value": 72
+        },
+        {
+            "name": "\n",
+            "value": 66
+        },
+        {
+            "name": "一体",
+            "value": 66
+        },
+        {
+            "name": "历史",
+            "value": 60
+        },
+        {
+            "name": "景区",
+            "value": 60
+        },
+        {
+            "name": "集",
+            "value": 55
+        },
+        {
+            "name": "中",
+            "value": 54
+        },
+        {
+            "name": "大型",
+            "value": 53
+        },
+        {
+            "name": "自然",
+            "value": 50
+        },
+        {
+            "name": "主题",
+            "value": 47
+        },
+        {
+            "name": "乐园",
+            "value": 47
+        },
+        {
+            "name": "动物",
+            "value": 45
+        },
+        {
+            "name": "建筑",
+            "value": 44
+        },
+        {
+            "name": "度假",
+            "value": 41
+        },
+        {
+            "name": "独特",
+            "value": 40
+        },
+        {
+            "name": "一座",
+            "value": 39
+        },
+        {
+            "name": "风情",
+            "value": 39
+        },
+        {
+            "name": "艺术",
+            "value": 39
+        },
+        {
+            "name": "未知",
+            "value": 37
+        },
+        {
+            "name": "公里",
+            "value": 36
+        },
+        {
+            "name": "博物馆",
+            "value": 36
+        },
+        {
+            "name": "风光",
+            "value": 35
+        },
+        {
+            "name": "项目",
+            "value": 35
+        },
+        {
+            "name": "海洋",
+            "value": 34
+        },
+        {
+            "name": "生态",
+            "value": 34
+        },
+        {
+            "name": "娱乐",
+            "value": 34
+        },
+        {
+            "name": "景观",
+            "value": 33
+        },
+        {
+            "name": "特色",
+            "value": 33
+        },
+        {
+            "name": "养生",
+            "value": 32
+        },
+        {
+            "name": "森林",
+            "value": 31
+        },
+        {
+            "name": "年",
+            "value": 30
+        },
+        {
+            "name": "公园",
+            "value": 29
+        },
+        {
+            "name": "天然",
+            "value": 29
+        },
+        {
+            "name": "总",
+            "value": 29
+        },
+        {
+            "name": "风景",
+            "value": 27
+        },
+        {
+            "name": "景色",
+            "value": 26
+        },
+        {
+            "name": "地方",
+            "value": 26
+        },
+        {
+            "name": "享受",
+            "value": 26
+        },
+        {
+            "name": "观光",
+            "value": 26
+        },
+        {
+            "name": "打造",
+            "value": 26
+        },
+        {
+            "name": "山",
+            "value": 26
+        },
+        {
+            "name": "千年",
+            "value": 25
+        },
+        {
+            "name": "水",
+            "value": 25
+        },
+        {
+            "name": "美景",
+            "value": 24
+        },
+        {
+            "name": "观赏",
+            "value": 24
+        },
+        {
+            "name": "圣地",
+            "value": 24
+        },
+        {
+            "name": "山水",
+            "value": 24
+        },
+        {
+            "name": "国家",
+            "value": 24
+        },
+        {
+            "name": "四季",
+            "value": 24
+        },
+        {
+            "name": "综合性",
+            "value": 23
+        },
+        {
+            "name": "之地",
+            "value": 23
+        },
+        {
+            "name": "城市",
+            "value": 22
+        },
+        {
+            "name": "好去处",
+            "value": 22
+        },
+        {
+            "name": "大自然",
+            "value": 22
+        },
+        {
+            "name": "领略",
+            "value": 22
+        },
+        {
+            "name": "重庆",
+            "value": 22
+        },
+        {
+            "name": "著名",
+            "value": 22
+        },
+        {
+            "name": "度假区",
+            "value": 22
+        },
+        {
+            "name": "峡谷",
+            "value": 21
+        },
+        {
+            "name": "国际",
+            "value": 21
+        },
+        {
+            "name": "神奇",
+            "value": 21
+        },
+        {
+            "name": "区",
+            "value": 20
+        },
+        {
+            "name": "古代",
+            "value": 20
+        },
+        {
+            "name": "园林",
+            "value": 20
+        },
+        {
+            "name": "约",
+            "value": 20
+        },
+        {
+            "name": "浪漫",
+            "value": 20
+        },
+        {
+            "name": "基地",
+            "value": 20
+        },
+        {
+            "name": "梦幻",
+            "value": 19
+        },
+        {
+            "name": "处",
+            "value": 19
+        },
+        {
+            "name": "小镇",
+            "value": 19
+        },
+        {
+            "name": "水上",
+            "value": 19
+        },
+        {
+            "name": "汗",
+            "value": 19
+        },
+        {
+            "name": "月",
+            "value": 18
+        },
+        {
+            "name": "景点",
+            "value": 18
+        },
+        {
+            "name": "动物园",
+            "value": 18
+        },
+        {
+            "name": "精华",
+            "value": 18
+        },
+        {
+            "name": "欢乐",
+            "value": 18
+        },
+        {
+            "name": "面积",
+            "value": 18
+        },
+        {
+            "name": "室内",
+            "value": 18
+        },
+        {
+            "name": "全球",
+            "value": 18
+        },
+        {
+            "name": "主题公园",
+            "value": 18
+        },
+        {
+            "name": "新",
+            "value": 18
+        },
+        {
+            "name": "江南",
+            "value": 18
+        },
+        {
+            "name": "馆",
+            "value": 17
+        },
+        {
+            "name": "生活",
+            "value": 17
+        },
+        {
+            "name": "美丽",
+            "value": 17
+        },
+        {
+            "name": "之旅",
+            "value": 17
+        },
+        {
+            "name": "佛教",
+            "value": 17
+        },
+        {
+            "name": "欣赏",
+            "value": 17
+        },
+        {
+            "name": "拥有",
+            "value": 17
+        },
+        {
+            "name": "游览",
+            "value": 16
+        },
+        {
+            "name": "黄河",
+            "value": 16
+        },
+        {
+            "name": "投资",
+            "value": 16
+        },
+        {
+            "name": "展示",
+            "value": 16
+        },
+        {
+            "name": "占地面积",
+            "value": 16
+        },
+        {
+            "name": "我国",
+            "value": 16
+        },
+        {
+            "name": "米",
+            "value": 16
+        },
+        {
+            "name": "游客",
+            "value": 16
+        },
+        {
+            "name": "全国",
+            "value": 16
+        },
+        {
+            "name": "亩",
+            "value": 16
+        },
+        {
+            "name": "传统",
+            "value": 15
+        },
+        {
+            "name": "草原",
+            "value": 15
+        },
+        {
+            "name": "国内",
+            "value": 15
+        },
+        {
+            "name": "花海",
+            "value": 15
+        },
+        {
+            "name": "探索",
+            "value": 15
+        },
+        {
+            "name": "魅力",
+            "value": 15
+        },
+        {
+            "name": "壮观",
+            "value": 15
+        },
+        {
+            "name": "酒店",
+            "value": 15
+        },
+        {
+            "name": "中心",
+            "value": 15
+        },
+        {
+            "name": "坐落于",
+            "value": 15
+        },
+        {
+            "name": "湖",
+            "value": 15
+        },
+        {
+            "name": "主题乐园",
+            "value": 15
+        },
+        {
+            "name": "民族",
+            "value": 15
+        },
+        {
+            "name": "刺激",
+            "value": 15
+        },
+        {
+            "name": "天下",
+            "value": 15
+        },
+        {
+            "name": "餐饮",
+            "value": 15
+        },
+        {
+            "name": "接触",
+            "value": 15
+        },
+        {
+            "name": "野生动物",
+            "value": 15
+        },
+        {
+            "name": "演出",
+            "value": 15
+        },
+        {
+            "name": "蒸",
+            "value": 15
+        },
+        {
+            "name": "上海",
+            "value": 15
+        },
+        {
+            "name": "澳门",
+            "value": 14
+        },
+        {
+            "name": "游乐",
+            "value": 14
+        },
+        {
+            "name": "遗址",
+            "value": 14
+        },
+        {
+            "name": "罕见",
+            "value": 14
+        },
+        {
+            "name": "式",
+            "value": 14
+        },
+        {
+            "name": "地下",
+            "value": 14
+        },
+        {
+            "name": "环境",
+            "value": 14
+        },
+        {
+            "name": "溶洞",
+            "value": 14
+        },
+        {
+            "name": "境内",
+            "value": 14
+        },
+        {
+            "name": "理想",
+            "value": 14
+        },
+        {
+            "name": "瀑布",
+            "value": 14
+        },
+        {
+            "name": "里",
+            "value": 14
+        },
+        {
+            "name": "天堂",
+            "value": 14
+        },
+        {
+            "name": "充满",
+            "value": 13
+        },
+        {
+            "name": "表演",
+            "value": 13
+        },
+        {
+            "name": "典型",
+            "value": 13
+        },
+        {
+            "name": "海底",
+            "value": 13
+        },
+        {
+            "name": "宁夏",
+            "value": 13
+        },
+        {
+            "name": "电影",
+            "value": 13
+        },
+        {
+            "name": "互动",
+            "value": 13
+        },
+        {
+            "name": "西北",
+            "value": 13
+        },
+        {
+            "name": "王国",
+            "value": 13
+        },
+        {
+            "name": "美",
+            "value": 13
+        },
+        {
+            "name": "建筑面积",
+            "value": 13
+        },
+        {
+            "name": "原始",
+            "value": 13
+        },
+        {
+            "name": "风格",
+            "value": 13
+        },
+        {
+            "name": "园区",
+            "value": 13
+        },
+        {
+            "name": "绝佳",
+            "value": 13
+        },
+        {
+            "name": "亲子",
+            "value": 13
+        },
+        {
+            "name": "北京",
+            "value": 13
+        },
+        {
+            "name": "古城",
+            "value": 13
+        },
+        {
+            "name": "群山",
+            "value": 13
+        },
+        {
+            "name": "时尚",
+            "value": 12
+        },
+        {
+            "name": "平方米",
+            "value": 12
+        },
+        {
+            "name": "洗浴",
+            "value": 12
+        },
+        {
+            "name": "教育",
+            "value": 12
+        },
+        {
+            "name": "避暑",
+            "value": 12
+        },
+        {
+            "name": "美食",
+            "value": 12
+        },
+        {
+            "name": "秀美",
+            "value": 12
+        },
+        {
+            "name": "十大",
+            "value": 12
+        },
+        {
+            "name": "极地",
+            "value": 12
+        },
+        {
+            "name": "探险",
+            "value": 12
+        },
+        {
+            "name": "众多",
+            "value": 12
+        },
+        {
+            "name": "健康",
+            "value": 12
+        },
+        {
+            "name": "科普",
+            "value": 12
+        },
+        {
+            "name": "地标",
+            "value": 12
+        },
+        {
+            "name": "湿地",
+            "value": 12
+        },
+        {
+            "name": "一家",
+            "value": 12
+        },
+        {
+            "name": "漂流",
+            "value": 12
+        },
+        {
+            "name": "包括",
+            "value": 11
+        },
+        {
+            "name": "神秘",
+            "value": 11
+        },
+        {
+            "name": "俯瞰",
+            "value": 11
+        },
+        {
+            "name": "儿童",
+            "value": 11
+        },
+        {
+            "name": "三亚",
+            "value": 11
+        },
+        {
+            "name": "重点",
+            "value": 11
+        },
+        {
+            "name": "奇观",
+            "value": 11
+        },
+        {
+            "name": "设计",
+            "value": 11
+        },
+        {
+            "name": "北方",
+            "value": 11
+        },
+        {
+            "name": "级",
+            "value": 11
+        },
+        {
+            "name": "自然风光",
+            "value": 11
+        },
+        {
+            "name": "俱乐部",
+            "value": 11
+        },
+        {
+            "name": "林木",
+            "value": 11
+        },
+        {
+            "name": "仙境",
+            "value": 11
+        },
+        {
+            "name": "大漠",
+            "value": 11
+        },
+        {
+            "name": "快乐",
+            "value": 11
+        },
+        {
+            "name": "海拔",
+            "value": 11
+        },
+        {
+            "name": "观",
+            "value": 11
+        },
+        {
+            "name": "服务",
+            "value": 11
+        },
+        {
+            "name": "震撼",
+            "value": 11
+        },
+        {
+            "name": "地质",
+            "value": 11
+        },
+        {
+            "name": "占地",
+            "value": 11
+        },
+        {
+            "name": "穿越",
+            "value": 11
+        },
+        {
+            "name": "风景区",
+            "value": 11
+        },
+        {
+            "name": "浓郁",
+            "value": 11
+        },
+        {
+            "name": "设施",
+            "value": 11
+        },
+        {
+            "name": "地区",
+            "value": 11
+        },
+        {
+            "name": "人间",
+            "value": 10
+        },
+        {
+            "name": "园",
+            "value": 10
+        },
+        {
+            "name": "赏",
+            "value": 10
+        },
+        {
+            "name": "一处",
+            "value": 10
+        },
+        {
+            "name": "玻璃",
+            "value": 10
+        },
+        {
+            "name": "水乡",
+            "value": 10
+        },
+        {
+            "name": "旅游区",
+            "value": 10
+        },
+        {
+            "name": "成都",
+            "value": 10
+        },
+        {
+            "name": "游",
+            "value": 10
+        },
+        {
+            "name": "令人",
+            "value": 10
+        },
+        {
+            "name": "拍摄地",
+            "value": 10
+        },
+        {
+            "name": "石窟",
+            "value": 10
+        },
+        {
+            "name": "遗迹",
+            "value": 10
+        },
+        {
+            "name": "野生",
+            "value": 10
+        },
+        {
+            "name": "之美",
+            "value": 10
+        },
+        {
+            "name": "村",
+            "value": 10
+        },
+        {
+            "name": "山峰",
+            "value": 10
+        },
+        {
+            "name": "胜地",
+            "value": 10
+        },
+        {
+            "name": "游乐园",
+            "value": 10
+        },
+        {
+            "name": "镇",
+            "value": 10
+        },
+        {
+            "name": "号",
+            "value": 10
+        },
+        {
+            "name": "人文",
+            "value": 10
+        },
+        {
+            "name": "保护",
+            "value": 10
+        },
+        {
+            "name": "秀丽",
+            "value": 10
+        },
+        {
+            "name": "高空",
+            "value": 10
+        },
+        {
+            "name": "文物",
+            "value": 10
+        },
+        {
+            "name": "冰雪",
+            "value": 10
+        },
+        {
+            "name": "一场",
+            "value": 10
+        },
+        {
+            "name": "西藏",
+            "value": 10
+        },
+        {
+            "name": "天",
+            "value": 9
+        },
+        {
+            "name": "广场",
+            "value": 9
+        },
+        {
+            "name": "动植物",
+            "value": 9
+        },
+        {
+            "name": "心灵",
+            "value": 9
+        },
+        {
+            "name": "场所",
+            "value": 9
+        },
+        {
+            "name": "洞",
+            "value": 9
+        },
+        {
+            "name": "再现",
+            "value": 9
+        },
+        {
+            "name": "风貌",
+            "value": 9
+        },
+        {
+            "name": "建设",
+            "value": 9
+        },
+        {
+            "name": "10",
+            "value": 9
+        },
+        {
+            "name": "孩子",
+            "value": 9
+        },
+        {
+            "name": "实景",
+            "value": 9
+        },
+        {
+            "name": "热带雨林",
+            "value": 9
+        },
+        {
+            "name": "古老",
+            "value": 9
+        },
+        {
+            "name": "高",
+            "value": 9
+        },
+        {
+            "name": "故事",
+            "value": 9
+        },
+        {
+            "name": "历史悠久",
+            "value": 9
+        },
+        {
+            "name": "内涵",
+            "value": 9
+        },
+        {
+            "name": "气息",
+            "value": 9
+        },
+        {
+            "name": "尽收眼底",
+            "value": 9
+        },
+        {
+            "name": "民俗",
+            "value": 9
+        },
+        {
+            "name": "时光",
+            "value": 9
+        },
+        {
+            "name": "多种",
+            "value": 9
+        },
+        {
+            "name": "发源地",
+            "value": 9
+        },
+        {
+            "name": "地貌",
+            "value": 9
+        },
+        {
+            "name": "东南",
+            "value": 9
+        },
+        {
+            "name": "创意",
+            "value": 9
+        },
+        {
+            "name": "南",
+            "value": 9
+        },
+        {
+            "name": "近距离",
+            "value": 9
+        },
+        {
+            "name": "东方",
+            "value": 9
+        },
+        {
+            "name": "亲密",
+            "value": 9
+        },
+        {
+            "name": "亿元",
+            "value": 9
+        },
+        {
+            "name": "中华",
+            "value": 9
+        },
+        {
+            "name": "世外桃源",
+            "value": 9
+        },
+        {
+            "name": "古镇",
+            "value": 9
+        },
+        {
+            "name": "奇特",
+            "value": 9
+        },
+        {
+            "name": "高科技",
+            "value": 9
+        },
+        {
+            "name": "传奇",
+            "value": 8
+        },
+        {
+            "name": "珍稀",
+            "value": 8
+        },
+        {
+            "name": "完整",
+            "value": 8
+        },
+        {
+            "name": "购物",
+            "value": 8
+        },
+        {
+            "name": "被誉为",
+            "value": 8
+        },
+        {
+            "name": "沐浴",
+            "value": 8
+        },
+        {
+            "name": "功能",
+            "value": 8
+        },
+        {
+            "name": "豪华",
+            "value": 8
+        },
+        {
+            "name": "大道",
+            "value": 8
+        },
+        {
+            "name": "民居",
+            "value": 8
+        },
+        {
+            "name": "奇幻",
+            "value": 8
+        },
+        {
+            "name": "演艺",
+            "value": 8
+        },
+        {
+            "name": "专业",
+            "value": 8
+        },
+        {
+            "name": "提供",
+            "value": 8
+        },
+        {
+            "name": "城",
+            "value": 8
+        },
+        {
+            "name": "发现",
+            "value": 8
+        },
+        {
+            "name": "回归自然",
+            "value": 8
+        },
+        {
+            "name": "资源",
+            "value": 8
+        },
+        {
+            "name": "植被",
+            "value": 8
+        },
+        {
+            "name": "花",
+            "value": 8
+        },
+        {
+            "name": "乡",
+            "value": 8
+        },
+        {
+            "name": "万平方米",
+            "value": 8
+        },
+        {
+            "name": "洞天",
+            "value": 8
+        },
+        {
+            "name": "堪称",
+            "value": 8
+        },
+        {
+            "name": "明珠",
+            "value": 8
+        },
+        {
+            "name": "VR",
+            "value": 8
+        },
+        {
+            "name": "漓江",
+            "value": 8
+        },
+        {
+            "name": "名胜区",
+            "value": 8
+        },
+        {
+            "name": "皆",
+            "value": 8
+        },
+        {
+            "name": "巍峨",
+            "value": 8
+        },
+        {
+            "name": "碧水",
+            "value": 8
+        },
+        {
+            "name": "古朴",
+            "value": 8
+        },
+        {
+            "name": "海上",
+            "value": 8
+        },
+        {
+            "name": "素有",
+            "value": 8
+        },
+        {
+            "name": "三国",
+            "value": 8
+        },
+        {
+            "name": "清澈",
+            "value": 8
+        },
+        {
+            "name": "核心",
+            "value": 8
+        },
+        {
+            "name": "古",
+            "value": 8
+        },
+        {
+            "name": "融合",
+            "value": 8
+        },
+        {
+            "name": "之称",
+            "value": 8
+        },
+        {
+            "name": "所在地",
+            "value": 8
+        },
+        {
+            "name": "寺院",
+            "value": 8
+        },
+        {
+            "name": "一条",
+            "value": 8
+        },
+        {
+            "name": "型",
+            "value": 8
+        },
+        {
+            "name": "天坑",
+            "value": 7
+        },
+        {
+            "name": "户外",
+            "value": 7
+        },
+        {
+            "name": "宝库",
+            "value": 7
+        },
+        {
+            "name": "幽",
+            "value": 7
+        },
+        {
+            "name": "亲近",
+            "value": 7
+        },
+        {
+            "name": "青山",
+            "value": 7
+        },
+        {
+            "name": "藏传佛教",
+            "value": 7
+        },
+        {
+            "name": "有限公司",
+            "value": 7
+        },
+        {
+            "name": "拍摄",
+            "value": 7
+        },
+        {
+            "name": "蜿蜒",
+            "value": 7
+        },
+        {
+            "name": "首家",
+            "value": 7
+        },
+        {
+            "name": "走进",
+            "value": 7
+        },
+        {
+            "name": "牡丹",
+            "value": 7
+        },
+        {
+            "name": "开发",
+            "value": 7
+        },
+        {
+            "name": "怪石",
+            "value": 7
+        },
+        {
+            "name": "云南",
+            "value": 7
+        },
+        {
+            "name": "规划",
+            "value": 7
+        },
+        {
+            "name": "索道",
+            "value": 7
+        },
+        {
+            "name": "纵横",
+            "value": 7
+        },
+        {
+            "name": "悬崖",
+            "value": 7
+        },
+        {
+            "name": "展现",
+            "value": 7
+        },
+        {
+            "name": "运动",
+            "value": 7
+        },
+        {
+            "name": "童话",
+            "value": 7
+        },
+        {
+            "name": "欢乐谷",
+            "value": 7
+        },
+        {
+            "name": "千古",
+            "value": 7
+        },
+        {
+            "name": "走",
+            "value": 7
+        },
+        {
+            "name": "独具特色",
+            "value": 7
+        },
+        {
+            "name": "一览",
+            "value": 7
+        },
+        {
+            "name": "精彩",
+            "value": 7
+        },
+        {
+            "name": "万",
+            "value": 7
+        },
+        {
+            "name": "剧场",
+            "value": 7
+        },
+        {
+            "name": "路",
+            "value": 7
+        },
+        {
+            "name": "㎡",
+            "value": 7
+        },
+        {
+            "name": "盛宴",
+            "value": 7
+        },
+        {
+            "name": "环抱",
+            "value": 7
+        },
+        {
+            "name": "四大",
+            "value": 7
+        },
+        {
+            "name": "宏伟",
+            "value": 7
+        },
+        {
+            "name": "都市",
+            "value": 7
+        },
+        {
+            "name": "花卉",
+            "value": 7
+        },
+        {
+            "name": "秀",
+            "value": 7
+        },
+        {
+            "name": "泉水",
+            "value": 7
+        },
+        {
+            "name": "田园",
+            "value": 7
+        },
+        {
+            "name": "景",
+            "value": 7
+        },
+        {
+            "name": "自然景观",
+            "value": 7
+        },
+        {
+            "name": "飞瀑",
+            "value": 7
+        },
+        {
+            "name": "影视",
+            "value": 7
+        },
+        {
+            "name": "险",
+            "value": 7
+        },
+        {
+            "name": "一站式",
+            "value": 7
+        },
+        {
+            "name": "坐落",
+            "value": 7
+        },
+        {
+            "name": "交通",
+            "value": 7
+        },
+        {
+            "name": "放松",
+            "value": 7
+        },
+        {
+            "name": "桂林",
+            "value": 7
+        },
+        {
+            "name": "秘境",
+            "value": 7
+        },
+        {
+            "name": "大连",
+            "value": 7
+        },
+        {
+            "name": "山势",
+            "value": 7
+        },
+        {
+            "name": "军事",
+            "value": 7
+        },
+        {
+            "name": "夜景",
+            "value": 7
+        },
+        {
+            "name": "哈尔滨",
+            "value": 7
+        },
+        {
+            "name": "蒙古",
+            "value": 7
+        },
+        {
+            "name": "间",
+            "value": 7
+        },
+        {
+            "name": "故宫",
+            "value": 7
+        },
+        {
+            "name": "清江",
+            "value": 7
+        },
+        {
+            "name": "伊甸园",
+            "value": 7
+        },
+        {
+            "name": "林立",
+            "value": 7
+        },
+        {
+            "name": "寺",
+            "value": 7
+        },
+        {
+            "name": "新疆",
+            "value": 7
+        },
+        {
+            "name": "亚洲",
+            "value": 7
+        },
+        {
+            "name": "科技",
+            "value": 7
+        },
+        {
+            "name": "水质",
+            "value": 7
+        },
+        {
+            "name": "研究",
+            "value": 7
+        },
+        {
+            "name": "神山",
+            "value": 7
+        },
+        {
+            "name": "集团",
+            "value": 7
+        },
+        {
+            "name": "拉萨",
+            "value": 7
+        },
+        {
+            "name": "保存",
+            "value": 7
+        },
+        {
+            "name": "百年",
+            "value": 6
+        },
+        {
+            "name": "六大",
+            "value": 6
+        },
+        {
+            "name": "氧吧",
+            "value": 6
+        },
+        {
+            "name": "丝绸之路",
+            "value": 6
+        },
+        {
+            "name": "高原",
+            "value": 6
+        },
+        {
+            "name": "原汁原味",
+            "value": 6
+        },
+        {
+            "name": "翡翠",
+            "value": 6
+        },
+        {
+            "name": "西",
+            "value": 6
+        },
+        {
+            "name": "航空",
+            "value": 6
+        },
+        {
+            "name": "文化底蕴",
+            "value": 6
+        },
+        {
+            "name": "品",
+            "value": 6
+        },
+        {
+            "name": "参观",
+            "value": 6
+        },
+        {
+            "name": "空间",
+            "value": 6
+        },
+        {
+            "name": "称为",
+            "value": 6
+        },
+        {
+            "name": "汽车",
+            "value": 6
+        },
+        {
+            "name": "人文景观",
+            "value": 6
+        },
+        {
+            "name": "网红",
+            "value": 6
+        },
+        {
+            "name": "爱",
+            "value": 6
+        },
+        {
+            "name": "完美",
+            "value": 6
+        },
+        {
+            "name": "张家界",
+            "value": 6
+        },
+        {
+            "name": "梦",
+            "value": 6
+        },
+        {
+            "name": "人间仙境",
+            "value": 6
+        },
+        {
+            "name": "首",
+            "value": 6
+        },
+        {
+            "name": "丹霞",
+            "value": 6
+        },
+        {
+            "name": "奇景",
+            "value": 6
+        },
+        {
+            "name": "元素",
+            "value": 6
+        },
+        {
+            "name": "生态旅游",
+            "value": 6
+        },
+        {
+            "name": "市民",
+            "value": 6
+        },
+        {
+            "name": "黄山",
+            "value": 6
+        },
+        {
+            "name": "标志",
+            "value": 6
+        },
+        {
+            "name": "建立",
+            "value": 6
+        },
+        {
+            "name": "海豚",
+            "value": 6
+        },
+        {
+            "name": "原始森林",
+            "value": 6
+        },
+        {
+            "name": "登临",
+            "value": 6
+        },
+        {
+            "name": "滑雪",
+            "value": 6
+        },
+        {
+            "name": "得名",
+            "value": 6
+        },
+        {
+            "name": "植物",
+            "value": 6
+        },
+        {
+            "name": "魔幻",
+            "value": 6
+        },
+        {
+            "name": "时期",
+            "value": 6
+        },
+        {
+            "name": "大海",
+            "value": 6
+        },
+        {
+            "name": "住宿",
+            "value": 6
+        },
+        {
+            "name": "漫步",
+            "value": 6
+        },
+        {
+            "name": "雪山",
+            "value": 6
+        },
+        {
+            "name": "皇家",
+            "value": 6
+        },
+        {
+            "name": "较大",
+            "value": 6
+        },
+        {
+            "name": "极具",
+            "value": 6
+        },
+        {
+            "name": "观看",
+            "value": 6
+        },
+        {
+            "name": "经典",
+            "value": 6
+        },
+        {
+            "name": "奇石",
+            "value": 6
+        },
+        {
+            "name": "香港",
+            "value": 6
+        },
+        {
+            "name": "奇峰",
+            "value": 6
+        },
+        {
+            "name": "藏",
+            "value": 6
+        },
+        {
+            "name": "贺兰山",
+            "value": 6
+        },
+        {
+            "name": "代表",
+            "value": 6
+        },
+        {
+            "name": "风采",
+            "value": 6
+        },
+        {
+            "name": "摩天轮",
+            "value": 6
+        },
+        {
+            "name": "殿堂",
+            "value": 6
+        },
+        {
+            "name": "置身",
+            "value": 6
+        },
+        {
+            "name": "森林公园",
+            "value": 6
+        },
+        {
+            "name": "敦煌",
+            "value": 6
+        },
+        {
+            "name": "喧嚣",
+            "value": 6
+        },
+        {
+            "name": "体会",
+            "value": 6
+        },
+        {
+            "name": "地处",
+            "value": 6
+        },
+        {
+            "name": "18",
+            "value": 6
+        },
+        {
+            "name": "冒险",
+            "value": 6
+        },
+        {
+            "name": "必游",
+            "value": 6
+        },
+        {
+            "name": "河",
+            "value": 6
+        },
+        {
+            "name": "浓缩",
+            "value": 6
+        },
+        {
+            "name": "雄伟",
+            "value": 6
+        },
+        {
+            "name": "方式",
+            "value": 6
+        },
+        {
+            "name": "风景秀丽",
+            "value": 6
+        },
+        {
+            "name": "岛",
+            "value": 6
+        },
+        {
+            "name": "丛林",
+            "value": 6
+        },
+        {
+            "name": "建筑风格",
+            "value": 6
+        },
+        {
+            "name": "荟萃",
+            "value": 6
+        },
+        {
+            "name": "布局",
+            "value": 6
+        },
+        {
+            "name": "西部",
+            "value": 6
+        },
+        {
+            "name": "文旅",
+            "value": 6
+        },
+        {
+            "name": "奥秘",
+            "value": 6
+        },
+        {
+            "name": "塔",
+            "value": 6
+        },
+        {
+            "name": "营业",
+            "value": 6
+        },
+        {
+            "name": "西安",
+            "value": 6
+        },
+        {
+            "name": "长江",
+            "value": 6
+        },
+        {
+            "name": "文化遗产",
+            "value": 6
+        },
+        {
+            "name": "绿色",
+            "value": 6
+        },
+        {
+            "name": "取景",
+            "value": 6
+        },
+        {
+            "name": "主体",
+            "value": 6
+        },
+        {
+            "name": "舒适",
+            "value": 6
+        },
+        {
+            "name": "爱情",
+            "value": 6
+        },
+        {
+            "name": "丹霞地貌",
+            "value": 6
+        },
+        {
+            "name": "云雾",
+            "value": 6
+        },
+        {
+            "name": "沙漠",
+            "value": 6
+        },
+        {
+            "name": "公路",
+            "value": 6
+        },
+        {
+            "name": "现代化",
+            "value": 6
+        },
+        {
+            "name": "狂欢",
+            "value": 6
+        },
+        {
+            "name": "景致",
+            "value": 6
+        },
+        {
+            "name": "天地",
+            "value": 6
+        },
+        {
+            "name": "展览",
+            "value": 5
+        },
+        {
+            "name": "第一",
+            "value": 5
+        },
+        {
+            "name": "规模",
+            "value": 5
+        },
+        {
+            "name": "华夏",
+            "value": 5
+        },
+        {
+            "name": "雄",
+            "value": 5
+        },
+        {
+            "name": "选择",
+            "value": 5
+        },
+        {
+            "name": "蹦床",
+            "value": 5
+        },
+        {
+            "name": "四周",
+            "value": 5
+        },
+        {
+            "name": "绿草如茵",
+            "value": 5
+        },
+        {
+            "name": "盛唐",
+            "value": 5
+        },
+        {
+            "name": "幽静",
+            "value": 5
+        },
+        {
+            "name": "360",
+            "value": 5
+        },
+        {
+            "name": "部落",
+            "value": 5
+        },
+        {
+            "name": "惬意",
+            "value": 5
+        },
+        {
+            "name": "苍翠",
+            "value": 5
+        },
+        {
+            "name": "萌宠",
+            "value": 5
+        },
+        {
+            "name": "生产",
+            "value": 5
+        },
+        {
+            "name": "两岸",
+            "value": 5
+        },
+        {
+            "name": "宝藏",
+            "value": 5
+        },
+        {
+            "name": "仙人",
+            "value": 5
+        },
+        {
+            "name": "大峡谷",
+            "value": 5
+        },
+        {
+            "name": "乐趣",
+            "value": 5
+        },
+        {
+            "name": "营造",
+            "value": 5
+        },
+        {
+            "name": "理念",
+            "value": 5
+        },
+        {
+            "name": "岛上",
+            "value": 5
+        },
+        {
+            "name": "回归",
+            "value": 5
+        },
+        {
+            "name": "探寻",
+            "value": 5
+        },
+        {
+            "name": "设备",
+            "value": 5
+        },
+        {
+            "name": "邂逅",
+            "value": 5
+        },
+        {
+            "name": "地理",
+            "value": 5
+        },
+        {
+            "name": "尽享",
+            "value": 5
+        },
+        {
+            "name": "好玩",
+            "value": 5
+        },
+        {
+            "name": "之中",
+            "value": 5
+        },
+        {
+            "name": "火山",
+            "value": 5
+        },
+        {
+            "name": "山西省",
+            "value": 5
+        },
+        {
+            "name": "迷宫",
+            "value": 5
+        },
+        {
+            "name": "人类",
+            "value": 5
+        },
+        {
+            "name": "福地",
+            "value": 5
+        },
+        {
+            "name": "名品",
+            "value": 5
+        },
+        {
+            "name": "览",
+            "value": 5
+        },
+        {
+            "name": "teamLab",
+            "value": 5
+        },
+        {
+            "name": "优美",
+            "value": 5
+        },
+        {
+            "name": "100",
+            "value": 5
+        },
+        {
+            "name": "峨眉山",
+            "value": 5
+        },
+        {
+            "name": "世界各地",
+            "value": 5
+        },
+        {
+            "name": "湖泊",
+            "value": 5
+        },
+        {
+            "name": "美称",
+            "value": 5
+        },
+        {
+            "name": "餐厅",
+            "value": 5
+        },
+        {
+            "name": "畅游",
+            "value": 5
+        },
+        {
+            "name": "欧洲",
+            "value": 5
+        },
+        {
+            "name": "兰州",
+            "value": 5
+        },
+        {
+            "name": "西湖",
+            "value": 5
+        },
+        {
+            "name": "海南",
+            "value": 5
+        },
+        {
+            "name": "建筑群",
+            "value": 5
+        },
+        {
+            "name": "客房",
+            "value": 5
+        },
+        {
+            "name": "日出",
+            "value": 5
+        },
+        {
+            "name": "便利",
+            "value": 5
+        },
+        {
+            "name": "南京",
+            "value": 5
+        },
+        {
+            "name": "佛罗伦萨",
+            "value": 5
+        },
+        {
+            "name": "皇宫",
+            "value": 5
+        },
+        {
+            "name": "藏语",
+            "value": 5
+        },
+        {
+            "name": "道",
+            "value": 5
+        },
+        {
+            "name": "综合体",
+            "value": 5
+        },
+        {
+            "name": "绝美",
+            "value": 5
+        },
+        {
+            "name": "黄金",
+            "value": 5
+        },
+        {
+            "name": "采摘",
+            "value": 5
+        },
+        {
+            "name": "之誉",
+            "value": 5
+        },
+        {
+            "name": "画廊",
+            "value": 5
+        },
+        {
+            "name": "青海湖",
+            "value": 5
+        },
+        {
+            "name": "综合",
+            "value": 5
+        },
+        {
+            "name": "如画",
+            "value": 5
+        },
+        {
+            "name": "民族风情",
+            "value": 5
+        },
+        {
+            "name": "成立",
+            "value": 5
+        },
+        {
+            "name": "紧邻",
+            "value": 5
+        },
+        {
+            "name": "杂技",
+            "value": 5
+        },
+        {
+            "name": "见证",
+            "value": 5
+        },
+        {
+            "name": "南昌",
+            "value": 5
+        },
+        {
+            "name": "西南",
+            "value": 5
+        },
+        {
+            "name": "银川",
+            "value": 5
+        },
+        {
+            "name": "游憩",
+            "value": 5
+        },
+        {
+            "name": "千姿百态",
+            "value": 5
+        },
+        {
+            "name": "完好",
+            "value": 5
+        },
+        {
+            "name": "营地",
+            "value": 5
+        },
+        {
+            "name": "岛屿",
+            "value": 5
+        },
+        {
+            "name": "庄园",
+            "value": 5
+        },
+        {
+            "name": "40",
+            "value": 5
+        },
+        {
+            "name": "20",
+            "value": 5
+        },
+        {
+            "name": "情趣",
+            "value": 5
+        },
+        {
+            "name": "高山",
+            "value": 5
+        },
+        {
+            "name": "奇妙",
+            "value": 5
+        },
+        {
+            "name": "泉",
+            "value": 5
+        },
+        {
+            "name": "全新",
+            "value": 5
+        },
+        {
+            "name": "起伏",
+            "value": 5
+        },
+        {
+            "name": "总面积",
+            "value": 5
+        },
+        {
+            "name": "门户",
+            "value": 5
+        },
+        {
+            "name": "收藏",
+            "value": 5
+        },
+        {
+            "name": "气候",
+            "value": 5
+        },
+        {
+            "name": "道教",
+            "value": 5
+        },
+        {
+            "name": "地质公园",
+            "value": 5
+        },
+        {
+            "name": "呈现",
+            "value": 5
+        },
+        {
+            "name": "古迹",
+            "value": 5
+        },
+        {
+            "name": "品味",
+            "value": 5
+        },
+        {
+            "name": "长白山",
+            "value": 5
+        },
+        {
+            "name": "带来",
+            "value": 5
+        },
+        {
+            "name": "度",
+            "value": 5
+        },
+        {
+            "name": "15",
+            "value": 5
+        },
+        {
+            "name": "民俗文化",
+            "value": 5
+        },
+        {
+            "name": "始建",
+            "value": 5
+        },
+        {
+            "name": "亚热带",
+            "value": 5
+        },
+        {
+            "name": "距离",
+            "value": 5
+        },
+        {
+            "name": "土楼",
+            "value": 5
+        },
+        {
+            "name": "国家森林公园",
+            "value": 5
+        },
+        {
+            "name": "九十九",
+            "value": 5
+        },
+        {
+            "name": "清代",
+            "value": 5
+        },
+        {
+            "name": "东",
+            "value": 5
+        },
+        {
+            "name": "零距离",
+            "value": 5
+        },
+        {
+            "name": "巨型",
+            "value": 5
+        },
+        {
+            "name": "苗族",
+            "value": 5
+        },
+        {
+            "name": "全",
+            "value": 5
+        },
+        {
+            "name": "湖光山色",
+            "value": 5
+        },
+        {
+            "name": "穿梭",
+            "value": 5
+        },
+        {
+            "name": "道场",
+            "value": 5
+        },
+        {
+            "name": "一段",
+            "value": 5
+        },
+        {
+            "name": "一块",
+            "value": 5
+        },
+        {
+            "name": "谷",
+            "value": 5
+        },
+        {
+            "name": "条",
+            "value": 5
+        },
+        {
+            "name": "文明",
+            "value": 5
+        },
+        {
+            "name": "五台山",
+            "value": 5
+        },
+        {
+            "name": "闻名",
+            "value": 5
+        },
+        {
+            "name": "生物",
+            "value": 5
+        },
+        {
+            "name": "站",
+            "value": 5
+        },
+        {
+            "name": "山顶",
+            "value": 5
+        },
+        {
+            "name": "典雅",
+            "value": 5
+        },
+        {
+            "name": "热带",
+            "value": 5
+        },
+        {
+            "name": "海洋馆",
+            "value": 5
+        },
+        {
+            "name": "喀斯特",
+            "value": 5
+        },
+        {
+            "name": "飞行",
+            "value": 5
+        },
+        {
+            "name": "故乡",
+            "value": 5
+        },
+        {
+            "name": "融",
+            "value": 5
+        },
+        {
+            "name": "青海省",
+            "value": 5
+        },
+        {
+            "name": "武汉",
+            "value": 5
+        },
+        {
+            "name": "商业",
+            "value": 5
+        },
+        {
+            "name": "画卷",
+            "value": 4
+        },
+        {
+            "name": "终年",
+            "value": 4
+        },
+        {
+            "name": "水准",
+            "value": 4
+        },
+        {
+            "name": "郑州",
+            "value": 4
+        },
+        {
+            "name": "高度",
+            "value": 4
+        },
+        {
+            "name": "视觉",
+            "value": 4
+        },
+        {
+            "name": "瑰丽",
+            "value": 4
+        },
+        {
+            "name": "梦回",
+            "value": 4
+        },
+        {
+            "name": "游牧",
+            "value": 4
+        },
+        {
+            "name": "河谷",
+            "value": 4
+        },
+        {
+            "name": "鸟",
+            "value": 4
+        },
+        {
+            "name": "参天",
+            "value": 4
+        },
+        {
+            "name": "天津",
+            "value": 4
+        },
+        {
+            "name": "一身",
+            "value": 4
+        },
+        {
+            "name": "踏青",
+            "value": 4
+        },
+        {
+            "name": "山口",
+            "value": 4
+        },
+        {
+            "name": "栖息",
+            "value": 4
+        },
+        {
+            "name": "组成部分",
+            "value": 4
+        },
+        {
+            "name": "美人鱼",
+            "value": 4
+        },
+        {
+            "name": "之间",
+            "value": 4
+        },
+        {
+            "name": "诠释",
+            "value": 4
+        },
+        {
+            "name": "惊险",
+            "value": 4
+        },
+        {
+            "name": "独一无二",
+            "value": 4
+        },
+        {
+            "name": "哈尔滨市",
+            "value": 4
+        },
+        {
+            "name": "汇聚",
+            "value": 4
+        },
+        {
+            "name": "长城",
+            "value": 4
+        },
+        {
+            "name": "属",
+            "value": 4
+        },
+        {
+            "name": "县城",
+            "value": 4
+        },
+        {
+            "name": "项",
+            "value": 4
+        },
+        {
+            "name": "一年四季",
+            "value": 4
+        },
+        {
+            "name": "好莱坞",
+            "value": 4
+        },
+        {
+            "name": "祁连",
+            "value": 4
+        },
+        {
+            "name": "开封",
+            "value": 4
+        },
+        {
+            "name": "湾",
+            "value": 4
+        },
+        {
+            "name": "空中",
+            "value": 4
+        },
+        {
+            "name": "价值",
+            "value": 4
+        },
+        {
+            "name": "的花海",
+            "value": 4
+        },
+        {
+            "name": "成长",
+            "value": 4
+        },
+        {
+            "name": "羊八井",
+            "value": 4
+        },
+        {
+            "name": "4A",
+            "value": 4
+        },
+        {
+            "name": "向往",
+            "value": 4
+        },
+        {
+            "name": "位置",
+            "value": 4
+        },
+        {
+            "name": "兴建",
+            "value": 4
+        },
+        {
+            "name": "新区",
+            "value": 4
+        },
+        {
+            "name": "地形",
+            "value": 4
+        },
+        {
+            "name": "帝王",
+            "value": 4
+        },
+        {
+            "name": "农业",
+            "value": 4
+        },
+        {
+            "name": "多样",
+            "value": 4
+        },
+        {
+            "name": "之景",
+            "value": 4
+        },
+        {
+            "name": "目的地",
+            "value": 4
+        },
+        {
+            "name": "壁画",
+            "value": 4
+        },
+        {
+            "name": "民族特色",
+            "value": 4
+        },
+        {
+            "name": "浓厚",
+            "value": 4
+        },
+        {
+            "name": "石刻",
+            "value": 4
+        },
+        {
+            "name": "市区",
+            "value": 4
+        },
+        {
+            "name": "民俗风情",
+            "value": 4
+        },
+        {
+            "name": "东南亚",
+            "value": 4
+        },
+        {
+            "name": "湘江",
+            "value": 4
+        },
+        {
+            "name": "栈道",
+            "value": 4
+        },
+        {
+            "name": "唯美",
+            "value": 4
+        },
+        {
+            "name": "演绎",
+            "value": 4
+        },
+        {
+            "name": "第一次",
+            "value": 4
+        },
+        {
+            "name": "交汇处",
+            "value": 4
+        },
+        {
+            "name": "连锁",
+            "value": 4
+        },
+        {
+            "name": "度假胜地",
+            "value": 4
+        },
+        {
+            "name": "风韵",
+            "value": 4
+        },
+        {
+            "name": "海",
+            "value": 4
+        },
+        {
+            "name": "乡村",
+            "value": 4
+        },
+        {
+            "name": "可爱",
+            "value": 4
+        },
+        {
+            "name": "周末",
+            "value": 4
+        },
+        {
+            "name": "静谧",
+            "value": 4
+        },
+        {
+            "name": "车行",
+            "value": 4
+        },
+        {
+            "name": "相声",
+            "value": 4
+        },
+        {
+            "name": "会馆",
+            "value": 4
+        },
+        {
+            "name": "之巅",
+            "value": 4
+        },
+        {
+            "name": "大师",
+            "value": 4
+        },
+        {
+            "name": "慢",
+            "value": 4
+        },
+        {
+            "name": "象征",
+            "value": 4
+        },
+        {
+            "name": "正式",
+            "value": 4
+        },
+        {
+            "name": "樱花",
+            "value": 4
+        },
+        {
+            "name": "场馆",
+            "value": 4
+        },
+        {
+            "name": "市",
+            "value": 4
+        },
+        {
+            "name": "日",
+            "value": 4
+        },
+        {
+            "name": "英雄",
+            "value": 4
+        },
+        {
+            "name": "奇迹",
+            "value": 4
+        },
+        {
+            "name": "一生",
+            "value": 4
+        },
+        {
+            "name": "尽情",
+            "value": 4
+        },
+        {
+            "name": "情景",
+            "value": 4
+        },
+        {
+            "name": "城墙",
+            "value": 4
+        },
+        {
+            "name": "耸立",
+            "value": 4
+        },
+        {
+            "name": "相",
+            "value": 4
+        },
+        {
+            "name": "旖旎",
+            "value": 4
+        },
+        {
+            "name": "深海",
+            "value": 4
+        },
+        {
+            "name": "清幽",
+            "value": 4
+        },
+        {
+            "name": "生态环境",
+            "value": 4
+        },
+        {
+            "name": "平米",
+            "value": 4
+        },
+        {
+            "name": "意义",
+            "value": 4
+        },
+        {
+            "name": "茂密",
+            "value": 4
+        },
+        {
+            "name": "和谐",
+            "value": 4
+        },
+        {
+            "name": "绚丽",
+            "value": 4
+        },
+        {
+            "name": "科幻",
+            "value": 4
+        },
+        {
+            "name": "动感",
+            "value": 4
+        },
+        {
+            "name": "30",
+            "value": 4
+        },
+        {
+            "name": "无限",
+            "value": 4
+        },
+        {
+            "name": "一代",
+            "value": 4
+        },
+        {
+            "name": "远眺",
+            "value": 4
+        },
+        {
+            "name": "建",
+            "value": 4
+        },
+        {
+            "name": "融汇",
+            "value": 4
+        },
+        {
+            "name": "蜀",
+            "value": 4
+        },
+        {
+            "name": "名山",
+            "value": 4
+        },
+        {
+            "name": "住",
+            "value": 4
+        },
+        {
+            "name": "欢乐城",
+            "value": 4
+        },
+        {
+            "name": "幽深",
+            "value": 4
+        },
+        {
+            "name": "八大",
+            "value": 4
+        },
+        {
+            "name": "清朝",
+            "value": 4
+        },
+        {
+            "name": "清新",
+            "value": 4
+        },
+        {
+            "name": "沉浸",
+            "value": 4
+        },
+        {
+            "name": "造型",
+            "value": 4
+        },
+        {
+            "name": "利用",
+            "value": 4
+        },
+        {
+            "name": "归来",
+            "value": 4
+        },
+        {
+            "name": "玩",
+            "value": 4
+        },
+        {
+            "name": "小时",
+            "value": 4
+        },
+        {
+            "name": "各国",
+            "value": 4
+        },
+        {
+            "name": "瑰宝",
+            "value": 4
+        },
+        {
+            "name": "景象",
+            "value": 4
+        },
+        {
+            "name": "云端",
+            "value": 4
+        },
+        {
+            "name": "嗨",
+            "value": 4
+        },
+        {
+            "name": "茫茫",
+            "value": 4
+        },
+        {
+            "name": "流连忘返",
+            "value": 4
+        },
+        {
+            "name": "晋商",
+            "value": 4
+        },
+        {
+            "name": "大熊猫",
+            "value": 4
+        },
+        {
+            "name": "岩石",
+            "value": 4
+        },
+        {
+            "name": "宗教",
+            "value": 4
+        },
+        {
+            "name": "杰作",
+            "value": 4
+        },
+        {
+            "name": "有趣",
+            "value": 4
+        },
+        {
+            "name": "全长",
+            "value": 4
+        },
+        {
+            "name": "万里",
+            "value": 4
+        },
+        {
+            "name": "SPA",
+            "value": 4
+        },
+        {
+            "name": "万里长城",
+            "value": 4
+        },
+        {
+            "name": "鱼类",
+            "value": 4
+        },
+        {
+            "name": "赏花",
+            "value": 4
+        },
+        {
+            "name": "般",
+            "value": 4
+        },
+        {
+            "name": "旅游胜地",
+            "value": 4
+        },
+        {
+            "name": "藏族",
+            "value": 4
+        },
+        {
+            "name": "温泉水",
+            "value": 4
+        },
+        {
+            "name": "做",
+            "value": 4
+        },
+        {
+            "name": "雄浑",
+            "value": 4
+        },
+        {
+            "name": "繁茂",
+            "value": 4
+        },
+        {
+            "name": "化石",
+            "value": 4
+        },
+        {
+            "name": "国",
+            "value": 4
+        },
+        {
+            "name": "江西",
+            "value": 4
+        },
+        {
+            "name": "天文",
+            "value": 4
+        },
+        {
+            "name": "风景如画",
+            "value": 4
+        },
+        {
+            "name": "灵山",
+            "value": 4
+        },
+        {
+            "name": "清泉",
+            "value": 4
+        },
+        {
+            "name": "林海",
+            "value": 4
+        },
+        {
+            "name": "微缩",
+            "value": 4
+        },
+        {
+            "name": "矿物质",
+            "value": 4
+        },
+        {
+            "name": "真实",
+            "value": 4
+        },
+        {
+            "name": "徜徉",
+            "value": 4
+        },
+        {
+            "name": "牧歌",
+            "value": 4
+        },
+        {
+            "name": "压力",
+            "value": 4
+        },
+        {
+            "name": "园内",
+            "value": 4
+        },
+        {
+            "name": "少数民族",
+            "value": 4
+        },
+        {
+            "name": "惊险刺激",
+            "value": 4
+        },
+        {
+            "name": "塞外",
+            "value": 4
+        },
+        {
+            "name": "南北",
+            "value": 4
+        },
+        {
+            "name": "重庆市",
+            "value": 4
+        },
+        {
+            "name": "居住",
+            "value": 4
+        },
+        {
+            "name": "三层",
+            "value": 4
+        },
+        {
+            "name": "河流",
+            "value": 4
+        },
+        {
+            "name": "东侧",
+            "value": 4
+        }
+    ]
+}
