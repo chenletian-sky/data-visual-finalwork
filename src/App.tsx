@@ -28,7 +28,7 @@ class App extends Component<AppProps, AppState>{
     this.state = {
       windowHeight:0,
       windowWidth:0,
-      name:"浙江"
+      name:"全国"
     }
   }
   change_state = (name:string) => {
@@ -84,35 +84,6 @@ class App extends Component<AppProps, AppState>{
             }}
           >
             <ProCard
-              style={{
-                height:"10%"
-              }}
-            >
-              <Row
-                justify='space-around'
-                style={{
-                  margin:"2%"
-                }}
-              >
-                <Col 
-                  // span={12} 
-                >
-                  <Select defaultValue={'test1'}>
-                    <Option value={'test1'}>test1</Option>
-                    <Option value={'test2'}>test2</Option>
-                  </Select>
-                </Col>
-                <Col 
-                  // span={12}
-                >
-                  <Select defaultValue={"test1"}>
-                    <Option value={'test1'}>test1</Option>
-                    <Option value={'test2'}>test2</Option>
-                  </Select>
-                </Col>
-              </Row>
-            </ProCard>
-            <ProCard
               className='left-wordCloud'
               // colSpan={"100%"}
               style={{
@@ -142,7 +113,7 @@ class App extends Component<AppProps, AppState>{
             // backgroundColor:"blue"
           }}
         >
-        <MyChinaMapShow change_state={this.change_state}></MyChinaMapShow>
+        <MyChinaMapShow change_state={this.change_state} name={this.state.name}></MyChinaMapShow>
 
         </div>
         <div

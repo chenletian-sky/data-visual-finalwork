@@ -81,7 +81,7 @@ class MyNightingaleChart extends Component<MyNightingaleChartProps, MyNightingal
       <div 
         id="my-canvas"
         style={{
-          height:"47vh"
+          height:"60vh"
           // height:"100%",
           // width:"100%"
         }}

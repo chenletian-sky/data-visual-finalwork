@@ -21,17 +21,10 @@ class MyProvinceMap extends Component<MyProvinceMapProps, MyProvinceMapState>{
     var option: EChartsOption;
     myChart.showLoading();
 
-    const provinces = Object.keys(ProvinceMap_data)
-
     var province=this.props.name
-    var find_index = function (k: string){
-      var i = 0;
-      for (i=0;i<provinces.length;i++){
-        if(provinces[i]==k)break;
-      }
-      return i;
-    };
-    var index = find_index(province)
+    if(province=='全国'){
+      province='浙江'
+    }
     console.log(province)
     console.log(provinceGeoJson[province]['features'][0]['properties']['center'])
 
@@ -44,15 +37,15 @@ class MyProvinceMap extends Component<MyProvinceMapProps, MyProvinceMapState>{
       myChart.setOption(
         (option = {
           title: {
-            name: provinces[index],
-            text: '各省景点l人数及价格分布'+'('+ provinces[index] +')',
+            name: province,
+            text: '各省景点人数及价格分布'+'('+ province +')',
           },
           tooltip: {
             trigger: 'item',
           },
           visualMap: {
-            min: ProvinceMap_data[provinces[index]]['min'],
-            max: ProvinceMap_data[provinces[index]]['max'],
+            min: ProvinceMap_data[province]['min_price'],
+            max: ProvinceMap_data[province]['max_price'],
             text: ['Price High(元)', 'Price Low'],
             realtime: false,
             calculable: true,
@@ -62,11 +55,11 @@ class MyProvinceMap extends Component<MyProvinceMapProps, MyProvinceMapState>{
           },
           
           geo:{
-            name:provinces[index],
+            name:province,
             map:"Province",
             center:provinceGeoJson[province]['features'][0]['properties']['center'],
             // [120.33852,30.238361],
-            // zoom:5,
+            zoom:1,
             roam:true,
             tooltip: {
               // trigger: 'item',
@@ -80,12 +73,12 @@ class MyProvinceMap extends Component<MyProvinceMapProps, MyProvinceMapState>{
           // backgroundColor: '#404a59',
           series: [
             {
-              name: provinces[index],
+              name: province,
               type: 'scatter',
               coordinateSystem: 'geo',
-              data:ProvinceMap_data[provinces[index]]['data'],
+              data:ProvinceMap_data[province]['data'],
               symbolSize: function (val) {
-                return val[2] / 60+6;
+                return (val[2]/ProvinceMap_data[province]['max_people'])*100;
               },
               encode: {
                 value: 2

@@ -44,6 +44,8 @@ export default class WordsCloud extends Component<Props, State> {
         // const {WordsCloudData} = this.state
         myCharts = echarts.init(document.querySelector(".WordsCloud") as HTMLDivElement);
         let {classId} = this.state;
+        console.log(WordsCloudData)
+        console.log(typeof(WordsCloudData))
         // jsonList 用于绘制对应类词云图的数据
         var jsonList:Array<{
             name: string;
@@ -113,14 +115,14 @@ export default class WordsCloud extends Component<Props, State> {
     }
 
     
-    componentDidUpdate(){
-        //每次重绘需要删除原图元
-        if (myCharts != null && myCharts !== "" && myCharts !== undefined) {
-            myCharts.dispose();//销毁
-        }
+    // componentDidUpdate(){
+    //     //每次重绘需要删除原图元
+    //     if (myCharts != null && myCharts !== "" && myCharts !== undefined) {
+    //         myCharts.dispose();//销毁
+    //     }
         
-        this.createWordCloud()
-    }
+    //     this.createWordCloud()
+    // }
 
     handleChange = ()=>{
         let { classId } = this.state

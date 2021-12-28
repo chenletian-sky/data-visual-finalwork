@@ -8,6 +8,7 @@ const ChinaMap_data = require("./ChinaMap_data.json")
 type EChartsOption = echarts.EChartsOption;
 
 interface MyChinaMapShowProps {
+  name: string;
   change_state:Function
 }
 interface MyChinaMapShowState {
@@ -83,7 +84,11 @@ class MyChinaMapShow extends Component<MyChinaMapShowProps, MyChinaMapShowState>
         // alert(params.name);
 
         console.log(params)
-        _this.props.change_state(params.name);
+        if(_this.props.name==params.name) {
+          _this.props.change_state('全国')
+        }else{
+          _this.props.change_state(params.name);
+        }
       });
       
   }

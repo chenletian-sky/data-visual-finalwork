@@ -20,20 +20,10 @@ class MyRankingHistogram extends Component<MyRankingHistogramProps, MyRankingHis
     var chartDom = document.getElementById('my-rankingHistogram-canvas')!;
     var myChart = echarts.init(chartDom);
     var option: EChartsOption;
-    const provinces = Object.keys(rank_data)
     var province=this.props.name
-    var find_index = function (k: string){
-      var i = 0;
-      for (i=0;i<provinces.length;i++){
-        if(provinces[i]==k)break;
-      }
-      return i;
-    };
-    var index = find_index(province)
-
     option = {
       title: {
-        text: provinces[index]+'景点排名(top20)'
+        text: province+'景点排名(top20)'
       },
       tooltip: {
         trigger: 'axis',
@@ -54,7 +44,7 @@ class MyRankingHistogram extends Component<MyRankingHistogramProps, MyRankingHis
       },
       yAxis: {
         type: 'category',
-        data:rank_data[provinces[index]][0]
+        data:rank_data[province][0]
       },
       series: [
         {
@@ -66,7 +56,7 @@ class MyRankingHistogram extends Component<MyRankingHistogramProps, MyRankingHis
               { offset: 1, color: '#ed1941' }
             ])
           },
-          data:rank_data[provinces[index]][1]
+          data:rank_data[province][1]
         },
       ]
     };
