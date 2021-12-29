@@ -32,10 +32,10 @@ class App extends Component<AppProps, AppState>{
     }
   }
   change_state = (name:string) => {
+    // 修改组件状态函数
     this.setState({name:name})
-    // console.log(name)
   }
-
+// 初始化
   componentDidMount(){
     let width = window.innerWidth
     let height = window.innerHeight
@@ -43,18 +43,15 @@ class App extends Component<AppProps, AppState>{
     this.setState({
       windowHeight:height,
       windowWidth:width,
-      // name:'浙江'
     })
   }
 
   public render(): JSX.Element {
-    // const { Sider ,Header,Content} = Layout
     const { windowHeight,windowWidth} = this.state
     return (
       <div
         className='main-container'
         style={{
-          // backgroundColor:"red"
           width:"100%",
           height:"100%",
           display:"flex",
@@ -66,11 +63,7 @@ class App extends Component<AppProps, AppState>{
         <div 
           className='left-container'
           style={{
-            width:"25%",
-            // width:`${windowWidth/3}`,
-            // height:`${windowHeight}`,
-            // backgroundColor:"red"
-            
+            width:"25%"
           }}
         >
           
@@ -85,9 +78,7 @@ class App extends Component<AppProps, AppState>{
           >
             <ProCard
               className='left-wordCloud'
-              // colSpan={"100%"}
               style={{
-                // height:"100%"
               }}
             >
               <WordsCloud></WordsCloud>
@@ -108,9 +99,6 @@ class App extends Component<AppProps, AppState>{
           className='map-container'
           style={{
             width:"41%",
-            // width:`${windowWidth/3}`,
-            // height:`${windowHeight}`,
-            // backgroundColor:"blue"
           }}
         >
         <MyChinaMapShow change_state={this.change_state} name={this.state.name}></MyChinaMapShow>
@@ -120,9 +108,6 @@ class App extends Component<AppProps, AppState>{
           className='right-container'
           style={{
             width:"33%",
-            // width:`${windowWidth/3}`,
-            // height:`${windowHeight}`,
-            // backgroundColor:"black",
             display:"flex",
             flexDirection:"column",
             justifyContent:"space-around"
@@ -133,7 +118,6 @@ class App extends Component<AppProps, AppState>{
             style={{
               width:"100%",
               height:"48%",
-              // backgroundColor:"pink"
             }}
           >
           <MyRankingHistogram name={this.state.name}></MyRankingHistogram>
@@ -143,7 +127,6 @@ class App extends Component<AppProps, AppState>{
             style={{
               width:"100%",
               height:"48%",
-              // backgroundColor:"rgb(0, 122, 204)"
             }}
           >
             <MyProvinceMap name={this.state.name}></MyProvinceMap>

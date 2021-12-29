@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import * as echarts from 'echarts';
 type EChartsOption = echarts.EChartsOption;
-const provinceGeoJson = require("./Provinces_Map.json")
-const ProvinceMap_data = require('./ProvincesMap_data.json')
+const provinceGeoJson = require("./data/Provinces_Map.json")
+const ProvinceMap_data = require('./data/ProvincesMap_data.json')
+
+var myChart:any
 
 interface MyProvinceMapProps {
   name:string
@@ -17,7 +19,7 @@ class MyProvinceMap extends Component<MyProvinceMapProps, MyProvinceMapState>{
 
   draw = () => {
     var chartDom = document.getElementById('my-province-canvas')!;
-    var myChart = echarts.init(chartDom);
+    myChart = echarts.init(chartDom);
     var option: EChartsOption;
     myChart.showLoading();
 
@@ -64,13 +66,10 @@ class MyProvinceMap extends Component<MyProvinceMapProps, MyProvinceMapState>{
             tooltip: {
               // trigger: 'item',
               formatter: function (val) {
-                // console.log(val)
                 return val.name
               }
-              // show: false
             },
           },
-          // backgroundColor: '#404a59',
           series: [
             {
               name: province,
@@ -78,7 +77,7 @@ class MyProvinceMap extends Component<MyProvinceMapProps, MyProvinceMapState>{
               coordinateSystem: 'geo',
               data:ProvinceMap_data[province]['data'],
               symbolSize: function (val) {
-                return (val[2]/ProvinceMap_data[province]['max_people'])*100;
+                return (val[2]/ProvinceMap_data[province]['max_people'])*50+10;
               },
               encode: {
                 value: 2
@@ -86,8 +85,6 @@ class MyProvinceMap extends Component<MyProvinceMapProps, MyProvinceMapState>{
               tooltip: {
                 trigger: 'item',
                 formatter: function(val) {
-                  // console.log(val["data"]);
-                  
                   return val.name+"\n"+val.value.toString().split(',')[2]+ "人次 "+ val.value.toString().split(',')[3]+"元" ;
               }
               },
@@ -97,8 +94,7 @@ class MyProvinceMap extends Component<MyProvinceMapProps, MyProvinceMapState>{
       );
     
 
-      // option && myChart.setOption(option);
-    // })
+      option && myChart.setOption(option);
   }
 
   componentDidMount(){
@@ -106,6 +102,9 @@ class MyProvinceMap extends Component<MyProvinceMapProps, MyProvinceMapState>{
   }
 
   componentDidUpdate(){
+    if (myChart != null && myChart !== "" && myChart !== undefined) {
+        myChart.dispose();//销毁
+    }
     this.draw()
   }
 
@@ -113,7 +112,7 @@ class MyProvinceMap extends Component<MyProvinceMapProps, MyProvinceMapState>{
     return (
       <div id="my-province-canvas"
         style={{
-          height:"42vh",
+          height:"45vh",
           width:"60vh"
         }}
       >

@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import * as echarts from 'echarts';
 
-const rank_data=require('./ranking_data.json')
+const rank_data=require('./data/ranking_data.json')
 
 type EChartsOption = echarts.EChartsOption;
+
+var myChart:any
 
 interface MyRankingHistogramProps {
   name: string;
@@ -18,7 +20,7 @@ class MyRankingHistogram extends Component<MyRankingHistogramProps, MyRankingHis
 
   draw = ()=>{
     var chartDom = document.getElementById('my-rankingHistogram-canvas')!;
-    var myChart = echarts.init(chartDom);
+    myChart = echarts.init(chartDom);
     var option: EChartsOption;
     var province=this.props.name
     option = {
@@ -60,17 +62,17 @@ class MyRankingHistogram extends Component<MyRankingHistogramProps, MyRankingHis
         },
       ]
     };
-
     option && myChart.setOption(option);
   }
-
   componentDidMount(){
     this.draw()
   }
   componentDidUpdate(){
+    if (myChart != null && myChart !== "" && myChart !== undefined) {
+      myChart.dispose();//销毁
+  }
     this.draw()
   }
-
   public render(): JSX.Element {
     return (
       <div id="my-rankingHistogram-canvas"
@@ -78,7 +80,6 @@ class MyRankingHistogram extends Component<MyRankingHistogramProps, MyRankingHis
           height:"50vh"
         }}
       >
-
       </div>
     )
   }

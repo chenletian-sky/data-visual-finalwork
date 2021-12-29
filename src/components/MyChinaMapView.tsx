@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import * as echarts from 'echarts';
 import axios, { AxiosResponse } from 'axios';
 
-const chinaMapGeoJson = require("./china.geo.json")
-const ChinaMap_data = require("./ChinaMap_data.json")
+const chinaMapGeoJson = require("./data/china.geo.json")
+const ChinaMap_data = require("./data/ChinaMap_data.json")
 
 type EChartsOption = echarts.EChartsOption;
 
@@ -50,13 +50,6 @@ class MyChinaMapShow extends Component<MyChinaMapShowProps, MyChinaMapShowState>
               color: ['lightskyblue', 'yellow', 'orangered']
             }
           },
-          
-          // bmap:{
-          //   map:"China",
-          //   center:[120.33852,32.241262],
-          //   zoom:5,
-          //   roam:true
-          // },
           series: [
             {
               name: '中国',

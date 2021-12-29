@@ -2,14 +2,9 @@ import React, { Component } from 'react'
 import * as echarts from 'echarts';
 import 'echarts-wordcloud';
 
-// import "./1"
 import { WordCloudImage } from "../types/propsTypes"
-// import axios from 'axios';
-// import { PATH } from '../../../types/actionTypes';
 import { Spin } from 'antd';
-// import {image} from "../../image"   //词云图形状的编码
-// 导入json文件数据的方式  所有类词云图的数据接口
-const WordsCloudData = require("./WordCloud_data.json")
+const WordsCloudData = require("./data/WordCloud_data.json")
 
 interface WordCloudDataType{
     [classId:string]:Array<{
@@ -18,18 +13,11 @@ interface WordCloudDataType{
     }>
 } 
 
-// 需要全局声明方便后面的删除 
-var myCharts:any
-
-
 interface Props {
-    // isComplete:boolean,
-    // wordCloudClass:string
 }
 
 interface State {
     classId: string,
-    // WordsCloudData: WordCloudDataType
 }
 
 export default class WordsCloud extends Component<Props, State> {
@@ -41,8 +29,7 @@ export default class WordsCloud extends Component<Props, State> {
     }
     
     createWordCloud = ()=>{
-        // const {WordsCloudData} = this.state
-        myCharts = echarts.init(document.querySelector(".WordsCloud") as HTMLDivElement);
+        var myCharts = echarts.init(document.querySelector(".WordsCloud") as HTMLDivElement);
         let {classId} = this.state;
         console.log(WordsCloudData)
         console.log(typeof(WordsCloudData))
@@ -57,7 +44,7 @@ export default class WordsCloud extends Component<Props, State> {
         var option ={
             //设置标题，居中显示
             title:{
-                text: "全国各景点简介",
+                text: "全国各景点简介综合词云图",
                 left:'center',
                 top:"0px",
                 fill: "red",
@@ -114,28 +101,9 @@ export default class WordsCloud extends Component<Props, State> {
         this.createWordCloud();
     }
 
-    
-    // componentDidUpdate(){
-    //     //每次重绘需要删除原图元
-    //     if (myCharts != null && myCharts !== "" && myCharts !== undefined) {
-    //         myCharts.dispose();//销毁
-    //     }
-        
-    //     this.createWordCloud()
-    // }
-
-    handleChange = ()=>{
-        let { classId } = this.state
-        let changeId:number = (Number(classId) + 1)%9 === 0 ? 1 : (Number(classId) + 1)%9
-        this.setState(({
-            classId:  String(changeId)
-        }))
-    }
-
     render() {
         return (
             <>
-                {/* <button onClick={this.handleChange}>改变</button> */}
                 {
                     (<div className="WordsCloud"
                     style={{
@@ -147,7 +115,6 @@ export default class WordsCloud extends Component<Props, State> {
                     </div>)
                 }
                 
-
             </>
         )
     }
